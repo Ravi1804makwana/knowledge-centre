@@ -18,15 +18,15 @@
         msg+="Please enter the Valid Password<br/>Password contain at least one special symbols<br/>";
     if(!Pattern.matches("^[a-zA-Z0-9]+[a-zA-Z0-9.-_]*@[a-zA-Z0-9]+.[a-zA-Z0-9.]+", email))
         msg+="Please enter the Valid email address<br/>";
-    if(!Pattern.matches("^[9|8][0-9]{9,10}$", phoneNo))
+    if(!Pattern.matches("^[9|8|6|&][0-9]{9,10}$", phoneNo))
         msg+="Please enter the valid phone no";
     if(msg.length()==0)
     {
         Connection con=(Connection) application.getAttribute("con");
         Statement stmt=con.createStatement();
-        int r=stmt.executeUpdate("Insert into signup values (NULL,'"+fullName+"','"+userName+"','"+pwd+"','"+email+"','"+phoneNo+"')");
+        int r=stmt.executeUpdate("Insert into signup values (NULL,'"+fullName+"','"+userName+"','"+pwd+"','"+email+"','"+phoneNo+"','0')");
         if(r!=0)
-            msg="Sign Up Successful ! ! !";
+            msg="Sign Up Successful ! ! ! <br/>Welcome "+fullName+" ! ! !";
         else
             msg="Sign up Failed";
     }   
