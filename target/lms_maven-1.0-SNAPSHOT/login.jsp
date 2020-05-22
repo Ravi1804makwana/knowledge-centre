@@ -100,7 +100,6 @@
         <!-- Register Now Countdown -->
         <div class="register-now-countdown mb-100" style="color: red; font-family: monospace; font-size: 30px;" >
             <%=msg%>
-            <rssapp-carousel id="xXhLLW2vBoDe9Ate"></rssapp-carousel><script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script>
         </div>
     </section>
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
@@ -115,3 +114,6 @@
 </body>
 </html>
 <%@include file="footer.jsp" %>
+<%
+    msg="";
+%>
