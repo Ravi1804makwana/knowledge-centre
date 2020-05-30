@@ -41,7 +41,7 @@
         
         <!-- ##### Courses Content Start ##### -->
         <div class="single-course-content section-padding-100">
-            <div class="container">
+            <div class="container" style="overflow-x: auto;">
                 <div class="row">
                     <div class="col-12 col-lg-12">
                         <h2 style="color: blue;">Return Books / Renew Books</h2>   

@@ -56,7 +56,7 @@
             </nav>
         </div>
         <div class="single-course-content section-padding-100">
-            <div class="container">
+            <div class="container" style="overflow-x: auto;">
                 <h2 style="color: teal;">Suggestions</h2>
                 <table class="table">
                     <tr>

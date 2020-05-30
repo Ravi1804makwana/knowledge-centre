@@ -59,7 +59,7 @@
     </section><!-- End About Us Section -->
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
-        <div class="container">
+        <div class="container" style="overflow-x: auto;">
 
             <div class="row">
                 <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
